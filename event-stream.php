@@ -11,7 +11,7 @@ const SYS = "system";
 const ASSISTANT = "assistant";
 
 
-$open_ai_key = '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'; 
+$open_ai_key = 'OPEN_AI_KEY'; //REPLACE YOUR KEY HERE
 $open_ai = new OpenAi($open_ai_key);
 // Open the SQLite database
 $db = new SQLite3('db.sqlite');
